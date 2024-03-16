@@ -51,13 +51,13 @@ SOCKET accept_connection(SOCKET server_socket)
     return client_socket;
 }
 
-void send_message(SOCKET client_socket, const char *message) 
+void send_message_to_client(SOCKET client_socket, const char *message) 
 {
     send(client_socket, message, strlen(message), 0);
     printf("Message sent to client: %s\n", message);
 }
 
-void receive_message(SOCKET client_socket, char *buffer) 
+void receive_message_from_client(SOCKET client_socket, char *buffer) 
 {
     recv(client_socket, buffer, BUFFER_SIZE, 0);
     printf("Client: %s\n", buffer);

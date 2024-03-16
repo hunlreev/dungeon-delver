@@ -12,8 +12,8 @@ SOCKET create_server();
 
 SOCKET accept_connection(SOCKET server_socket);
 
-void send_message(SOCKET client_socket, const char *message);
+void send_message_to_client(SOCKET client_socket, const char *message);
 
-void receive_message(SOCKET client_socket, char *buffer);
+void receive_message_from_client(SOCKET client_socket, char *buffer);
 
 #endif
