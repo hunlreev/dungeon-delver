@@ -2,6 +2,7 @@
 #define CLIENT_H
 
 #include <winsock2.h>
+#include <stdio.h>
 
 SOCKET connect_to_server(const char *server_ip, int server_port);
 
