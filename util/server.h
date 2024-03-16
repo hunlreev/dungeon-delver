@@ -4,8 +4,9 @@
 #include <winsock2.h>
 #include <stdio.h>
 
-#define PORT 8888
+#define PORT 8080
 #define BUFFER_SIZE 1024
+#define MAX_CONNECTIONS 4
 
 SOCKET create_server();
 

@@ -1,4 +1,4 @@
-#include "util/server.h"
+#include "../util/server.h"
 
 SOCKET create_server() {
     WSADATA wsa;
