@@ -1,6 +1,7 @@
 #include "../util/server.h"
 
-SOCKET create_server() {
+SOCKET create_server() 
+{
     WSADATA wsa;
     SOCKET server_socket;
     struct sockaddr_in server_addr;
