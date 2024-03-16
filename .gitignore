@@ -1,0 +1,5 @@
+# Unnecessary folders (for now, needs to be updated at some point)
+bin/
+lib/
+res/
+.vscode/
